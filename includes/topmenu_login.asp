@@ -1,0 +1,1 @@
+<a<%if menuid=8 then response.write " class=""topmenusel"""%> id="t8" href="javascript:;" onMouseOver="P7_Snap('t8','closer',topmenu_xoffset-8,topmenu_yoffset,'t8','d8',topmenu_xoffset,topmenu_yoffset);P7_autoLayers(0,'d8','closer');if(safari){flashlayer.innerHTML=flashHTML2};">BU i danmark</a>

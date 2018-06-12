@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------------------------*/
+/*DE YDRE RAMMER OG GENERELLE ELEMENT STYLES */
+/*--------------------------------------------------------------------------------*/
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin:0;
+	background-color:#CCCCCC;
+}
+td {
+	font-size: 10px;
+}
+p {
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+h2{
+	font-size:18px;
+	font-weight: normal;
+	color:#222222;
+	margin-top:2px;
+	margin-bottom:4px;
+}	
+h3{
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	padding-bottom:4px;
+	margin-bottom:4px;
+/*	border-bottom:2px solid #DF4113;*/
+	/*margin-top:-4px; */
+}
+h5{
+	font-size:10px;
+	font-weight: bold;
+	color:#696969;
+	margin-top:2px;
+	margin-bottom:0px;
+}		
+a img{
+	border-color:#000;
+}
+form{
+	margin:0px;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* FORM STYLES */
+/*--------------------------------------------------------------------------------*/
+.input{
+	margin: 5px 5px 5px 0;
+	font-size:9px;
+	height:12px;
+}
+.submit{
+	font-size:9px;
+	margin-bottom:4px;
+}
+.select{
+	font-size:9px;
+}
+.blue{
+	font-weight: bold;
+	color: #00B5F0;
+	line-height:10px;
+	margin-top:10px;
+}
+.grey{
+	color:#666666;
+}
+.techinfotable {
+	width: 300px;
+}
+.topmenusel{
+	text-decoration:underline;
+}
+.label{
+	color:#666;
+	vertical-align:top;
+	padding: 3px 3px 0 0;
+}
+.text{
+	color:#333;
+	padding: 3px;
+}
+a:link, a:visited{
+	color: #000;
+	text-decoration:underline;
+}	
+a:hover, a:visited:hover{
+	color: #000;
+	text-decoration:underline;
+}	
+a:selected{
+	color: #000;
+	text-decoration:underline;
+}
+.imageText { 
+	font-size: 9px;
+	font-style:italic;
+}
+ul { 
+	list-style-image: url("/general/layout/bullet.gif");
+	list-style-type: square;
+	margin: 2px 0px 0px 20px;
+	line-height: 1.3em;
+	font-size:10px;
+}
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid #000000;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-bottom: 0 none;
+	margin-top	: -0.5em ;
+	padding: 0;
+}
+.newsTable{
+	width:350px;
+	font-size:10px;
+	margin-bottom:10px;
+	margin-top:15px;
+}
+.td{
+	font-size:9px;
+	color:#666666;
+}
+.monthTD{
+	width: 85px;
+	padding: 2px;
+	background-color:#FEF6CB;
+	text-align:center;
+}
+.daysTD {
+	width:40px;
+	background-color:#FDEB96;
+	text-align:center;
+}
+.searchbox{
+	margin: 20px 0 0 10px;
+}
+.searchBoxTD{
+	padding: 5px 0 1px 0;
+}
+.searchresultsTABLE{
+	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.searchresultsTABLE td{
+	padding-bottom: 1px;
+	color:#444444;
+}
+.searchresultsTABLE img{
+	margin: 0 10px 0 0;
+	border: 0;
+}
+.searchresultsLogo{
+	margin: 20px 0 10px 0;
+}
+.textImgWrap{
+	margin-right: 15px;
+	margin-top:15px;
+}
+#text p{
+margin-bottom: 20px; 
+}
+#text img{
+margin: 0 10px 5px 0; 
+border: 1px solid #000;
+}
+#crosslinks img{
+margin: 0 0 15px 0;
+}

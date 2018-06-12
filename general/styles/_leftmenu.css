@@ -1,0 +1,52 @@
+#leftmenu{
+	float: left;
+	width:165px;
+	padding:0;
+	margin-right:20px;
+	background-image:url("/images/leftmenu/bg.gif");
+}
+#leftmenu_text{
+	position:relative;
+	width: 145px;
+	color: #FFFFFF;
+	padding:0px 10px 0px 10px;
+}
+#leftmenu_text a{
+	text-decoration:none;
+	line-height:10px;
+	padding-top:10px;
+}
+.leftmenuTD{
+}
+.leftmenuTDSel{
+	font-weight:bold;
+}
+.leftmenuTD a{
+	border:none;
+	display: block;
+	margin-top: -3px;
+	width: 140px;
+	padding: 0 2px 2px 2px;
+}
+.leftmenuTD a:link, .leftmenuTD a:visited{
+	text-decoration: none;
+}
+
+.leftmenuTDSel a{
+	margin:0px;
+	border:none;
+	display: block;
+	margin-top: -3px;
+	padding-bottom: 2px;
+	padding-left:2px;
+	width: 140px;
+	font-weight:bold;
+}
+.leftmenuTDSel a:link, .leftmenuTDSel a:visited{
+	text-decoration: underline;
+	font-weight:bold;
+	color:#DF4113;
+}
+.leftmenuTDSel a:hover{
+	text-decoration: none;
+}

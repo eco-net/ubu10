@@ -1,0 +1,63 @@
+#guideMother{
+position:absolute;
+background-color:#FFFFFF;
+width: 370px;
+height:auto;
+margin: 0;
+border-left: 10px solid #000;
+border-top: 5px solid #000;
+border-bottom: 30px solid #000;
+}
+#guideTop{
+background-image:url("/images/topbars/guidetop.jpg");
+background-repeat:no-repeat;
+height: 54px;
+}
+#guideContent{
+height: 350px;
+font-size:11px;
+margin-left: 10px;
+border: 1px solid #000;}
+
+#guideContentFront{
+width:358px;
+background-image:url("/layout/cycleguide_123_blue2.gif");
+background-repeat:no-repeat;
+background-position:bottom right;
+height: 350px;
+font-size:11px;
+margin-left: 20px;
+}
+#guideContentResult{
+width:358px;
+height: 350px;
+font-size:11px;
+margin-left: 20px;
+}
+
+#guideCol{
+margin:10px;
+}
+
+#guideFooter {
+height: 7px;
+width: 378px;
+background-position:bottom left;
+}
+
+#listeBar{
+/*background-image:url("/layout/bar_notxt.gif");
+background-repeat:no-repeat;*/
+height: 24px;
+font-size:16px;
+font-weight: bold;
+color:#222222;
+}
+#bodycontent{
+float:left;
+width:200px;
+}
+#bikelist{
+background-color:#FFFFFF;
+margin: 5px;
+}

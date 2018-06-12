@@ -1,0 +1,92 @@
+/*
+Dette stylesheet anvendes af text-editoren i CMS'et.
+Det bør sættes op med element-tags sat til de mest anvendte styles
+*/
+
+/*--------------------------------------------------------------------------------*/
+/* ELEMENT STYLES */
+/*--------------------------------------------------------------------------------*/
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height:15px;
+	margin:0;
+	background-color:#FFFFFF;
+}
+td {
+	font-size: 11px;
+	line-height:15px;
+}
+p {
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+h1{/* Bruges till overskrifter på forside */
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom:2px solid #DF4113;
+	/*margin-top:-4px; */
+}
+h2{ /* Bruges til overskrifter på sider */
+	font-size:18px;
+	font-weight:normal;
+	color:#000000;
+	border-bottom:2px solid #DF4113;
+	padding-bottom:4px;
+}	
+h3{ /*Bruges til underoverskrifter på sider */
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	padding-bottom:4px;
+/*	margin-bottom:4px; */
+}
+h4{ /*Bruges til overskrifter i kolonner */
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom:2px solid #DF4113;
+}
+a:link, a:visited{
+	color: #DF4113;
+	text-decoration:none;
+}	
+a:hover, a:visited:hover{
+	color: #DF4113;
+	text-decoration:none;
+}	
+a:selected{
+	color: #DF4113;
+	text-decoration:none;
+}
+a img{
+	border-color:#000;
+}
+ul { 
+	list-style-image: url("/general/layout/bullet.gif");
+	list-style-type: square;
+	margin: 2px 0px 0px 20px;
+	line-height: 1.3em;
+	font-size:10px;
+}
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid #000000;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-bottom: 0 none;
+	margin-top	: -0.5em ;
+	padding: 0;
+}
+form{
+	margin:0px;
+}
+/*................................................................................*/
+/* ELEMENT STYLES */
+/*................................................................................*/

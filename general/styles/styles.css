@@ -1,0 +1,591 @@
+/*
+	INDHOLD
+		1. ELEMENT STYLES
+		2. FORM ELEMENT CLASSES
+		3. <DIV> - DE YDRE RAMMER
+		4. TOPBAR T.O.M. MENUBAREN
+		5. DROPDOWN MENUER
+		6. VENSTRE MENU
+		7. MAIN CONTENT AREA
+		8. HJRE KOLONNE
+		9. SPECIELLE ELEMENT STYLES
+		10.SPECIELLE <DIV>
+		11.ANDRE SPECIELLE STYLES
+*/
+
+/*--------------------------------------------------------------------------------*/
+/* ELEMENT STYLES */
+/*--------------------------------------------------------------------------------*/
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height:15px;
+	margin:0;
+	background-color:#F2F2F2;
+}
+td {
+	font-size: 11px;
+	line-height:15px;
+}
+p {
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+h1{/* Bruges till overskrifter p forside */
+	font-size:13px;
+	font-weight:bold;
+	color:#696969;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom:2px solid #DF4113;
+	/*margin-top:-4px; */
+}
+h2{ /* Bruges til overskrifter p sider */
+	font-size:18px;
+	line-height:20px;
+	font-weight:normal;
+	color:#000000;
+	border-bottom:2px solid #C60331;
+	margin-bottom:4px;
+	padding-bottom:4px;
+	margin-top:0px;
+}	
+h3{ /*Bruges til underoverskrifter p sider */
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	padding-bottom:4px;
+	margin-bottom:4px;
+}
+h4{ /*Bruges til overskrifter i kolonner */
+	font-size:13px;
+	line-height:20px;
+	font-weight:bold;
+	color:#696969;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	border-bottom:2px solid #C60331;
+}
+h5{ /*lille skrift */
+	font-size:9px;
+	font-weight:normal;
+}
+#hcol2_text h1
+{
+	font-size:12px;
+	color:#000000;
+	border-bottom:none;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	margin-top:10px;
+}
+
+}
+a:link, a:visited{
+	color: #C60331;
+	text-decoration:none;
+}	
+a:hover, a:visited:hover{
+	color: #C60331;
+	text-decoration:none;
+}	
+a:selected{
+	color: #C60331;
+	text-decoration:none;
+}
+a img{
+	border-color:#000;
+}
+ul {
+	list-style-image: url("/layout/bullet.gif");
+	list-style-type: square;
+	margin: 2px 0px 10px 15px;
+	list-style-position: outside;
+}
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid #C60331;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-bottom: 0 none;
+	margin-top	: -0.5em ;
+	padding: 0;
+}
+form{
+	margin:0px;
+}
+/*................................................................................*/
+/* ELEMENT STYLES */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* FORM ELEMENT CLASSES */
+/*--------------------------------------------------------------------------------*/
+.input{
+	margin: 5px 5px 5px 0;
+	font-size:9px;
+	height:12px;
+}
+.textarea{
+	margin: 5px 5px 5px 0;
+	font-size:11px;
+	height:180px;
+}
+.submit{
+	font-size:9px;
+	margin-bottom:4px;
+}
+.select{
+	font-size:9px;
+}
+.forminputblue{
+	font-weight: bold;
+	color: #00B5F0;
+	line-height:10px;
+	margin-top:10px;
+}
+.forminputgrey{
+	color:#666666;
+}
+.formlabel{
+	color:#666;
+	vertical-align:top;
+	padding: 3px 3px 0 0;
+}
+.formtext{
+	color:#333;
+	padding: 3px;
+}
+/*................................................................................*/
+/* FORM ELEMENT CLASSES */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* <DIV> - DE YDRE RAMMER */
+/*--------------------------------------------------------------------------------*/
+#mother{
+	position:absolute;
+	background-image:url("/images/page/bg.gif"); 
+	background-repeat:repeat-y;  
+	left: 50%;
+	margin-left: -400px;
+	width: 800px;
+	padding: 0;
+	border: 0;
+	height:auto;
+}
+#contentHolder{
+	float: left;
+	padding: 0px 17px 0px 17px;
+}
+#footer {
+	float:left;
+	width:100%;
+	padding:0px 0px 0px 0px;
+	color:#666666;
+	height:30px;
+	background-image:url("/images/page/bg_bottom.gif");
+	background-repeat:no-repeat;
+}
+#home_footer {
+	float:left;
+	width:100%;
+	height:20px;
+	padding:0px 0 0 0px;
+	color:#aaa;
+	background-image:url("/images/page/bg_bottom.gif");
+	background-repeat:no-repeat;
+}
+#footer_text{
+	float:left;
+	width:100%;
+	padding:0px 0px 0px 10px;
+	color:#666666;
+	text-align:left;
+	background-color:#F2F2F2;
+}
+/*................................................................................*/
+/* <DIV> - DE YDRE RAMMER */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* TOPBAR T.O.M. MENUBAREN */
+/*--------------------------------------------------------------------------------*/
+#topbar{
+	position:relative;
+	width: 735px;
+	height: 58px;
+	background-image:  url("/images/topbars/topbar.jpg");
+	background-repeat:no-repeat;
+	float:left;
+}
+#topbarsub{
+	position:relative;
+	width: 735px;
+	height: 58px;
+	background-image:url("/images/topbars/topbar.jpg");
+	background-repeat:no-repeat;
+	float:left;
+}
+#tools{
+	float:right;
+	height:20px;
+	padding: 2px 0 0 10px;
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	background-image:url("/images/topbars/tools_bg.gif");
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#tools a{
+	color: #fff;
+	text-decoration:none;
+}
+#contentHolder #menubar{
+	font-size:10px;
+	font-weight:bold;
+	padding: 2px 10px 3px 10px;
+	margin-bottom: 10px;
+	width: 735px;
+	height: 22px;
+	background-image:url("/images/topbars/menubar.jpg");
+	background-repeat:no-repeat;
+	float:left;
+}
+#contentHolder #menubar a {
+	padding: 0 10px 0 0; 
+	font-weight: bold;
+	color:#fff;
+	text-decoration:none;
+}
+#contentHolder #menubar .topmenusel {
+	padding: 0 10px 0 0; 
+	font-weight: bold;
+	color: #000;
+	text-decoration:underline;
+}
+#topbar_text{
+	position:absolute;
+	top:35px;
+	left:10px;	
+	height:15px;
+	font-size:10px;
+	font-style:italic;
+}
+/*................................................................................*/
+/* TOPBAR T.O.M. MENUBAREN */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* DROPDOWN MENUER */
+/*--------------------------------------------------------------------------------*/
+.dropdownTable {
+	background-color:#F7F7F7;
+}
+.dropmenuitem a{
+	margin:0px;
+	border:none;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	width: 151px;
+	color:#000000;
+}
+.dropmenuitem a:link, .dropmenuitem a:visited{
+	color:#000;
+	text-decoration: none;
+}
+.dropmenuitem a:hover {
+	background-color: #eeeeee;
+	text-decoration: none;
+	color:#DF4113;
+}
+.dropmenuitem a:active {
+	color: #000;
+	text-decoration: none;
+}
+.dropmenuitem a:visited {
+	color: #333;
+	text-decoration: none;
+}
+.dropmenuitem a:visited:Hover {
+	color: #DF4113;
+	text-decoration: none;
+}
+.outline {
+	background-color: #666666;
+}
+.topmenu{
+	position:absolute;
+	visibility:hidden;
+	z-index:101;
+}
+/*................................................................................*/
+/* DROPDOWN MENUER */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* VENSTRE MENU */
+/*--------------------------------------------------------------------------------*/
+#leftmenu{
+	float: left;
+	width:165px;
+	padding:0;
+	margin-right:20px;
+	background-image:url("/images/leftmenu/bg.gif");
+}
+#leftmenu_text{
+	position:relative;
+	width: 164px;
+	padding:0px 0px 0px 1px;
+}
+#leftmenu_text a{
+	text-decoration:none;
+	line-height:10px;
+	padding-top:10px;
+}
+
+/* Sider */
+.leftmenuTD{}
+.leftmenuTDSel{
+	background-color:#fff;
+}
+.leftmenuTD a{
+	border:none;
+	display: block;
+	margin-top: -3px;
+	width: 151px;
+	padding: 0 2px 4px 10px;
+}
+.leftmenuTD a:link, .leftmenuTD a:visited, .leftmenuTD a:active{
+	color:#000000;
+	text-decoration: none;
+}
+.leftmenuTD a:hover{
+	color:#DF4113;
+	text-decoration: none;
+	background-color:#F7F7F7;
+}
+.leftmenuTDSel a{
+	border:none;
+	display: block;
+	margin-top: -3px;
+	padding: 0 2px 4px 10px;
+	width: 151px;
+}
+.leftmenuTDSel a:link, .leftmenuTDSel a:visited{
+	color:#000;
+}
+
+/* undersider*/
+.leftmenuTDSub{}
+.leftmenuTDSubSel{
+	background-color:#fff;
+}
+.leftmenuTDSub a{
+	border:none;
+	display: block;
+	margin-top: -3px;
+	width: 136px;
+	padding: 0 2px 4px 25px;
+}
+.leftmenuTDSub a:link, .leftmenuTDSub a:visited, .leftmenuTDSub a:active{
+	color:#000000;
+	text-decoration: none;
+}
+.leftmenuTDSub a:hover{
+	color:#DF4113;
+	text-decoration: none;
+	background-color:#F7F7F7;
+}
+.leftmenuTDSubSel a{
+	border:none;
+	display: block;
+	margin-top: -3px;
+	width: 136px;
+	padding: 0 2px 4px 25px;
+}
+.leftmenuTDSubSel a:link, .leftmenuTDSubSel a:visited{
+	color:#000;
+}
+/*................................................................................*/
+/* VENSTRE MENU */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* MAIN CONTENT AREA */
+/*--------------------------------------------------------------------------------*/
+#maincontent{
+	float:left;
+	width: 350px;
+	margin: 0;
+}
+#maincontentWide{
+	float:left;
+	width: 430px;
+	margin: 0px 0px 0px 30px;
+}
+#maincontentXL{
+	float:left;
+	width: 750px;
+	margin: 0;
+}
+#maincontenttext{
+	line-height:15px;
+	font-size: 11px;
+}
+#maincontenttext table{
+	margin: 5px 0 5px 0; 
+}
+#maincontenttext td img{
+	margin: 0 0 0 0; 
+	border: 1px solid #fff;
+}
+#maincontenttext td .imageText{ 
+	font-size: 10px;
+	line-height:12px;
+	font-style:italic;
+}
+#maincontenttext td .imageText img{/* zoom-knap*/
+	margin: 2px 4px 0 0; 
+	border: none;
+}
+/* MAIN CONTENT AREA LISTINGS */
+.listtable{
+	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.listtable td{
+	padding-bottom: 1px;
+	color:#444444;
+}
+.listtable img{
+	margin: 0 10px 0 0;
+	border: 0;
+}
+/*................................................................................*/
+/* MAIN CONTENT AREA */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* HØJRE KOLONNE */
+/*--------------------------------------------------------------------------------*/
+#colRight {
+	float:left;
+	width: 160px;
+	margin-left: 30px;
+	color:#696969;
+}
+#colRight a{
+	text-decoration:none;
+	color:#C60331;
+}
+#colRight table{
+	margin: 5px 0 5px 0; 
+}
+#colRight td img{
+	margin: 0 0 0 0; 
+	border: 1px solid #fff;
+}
+#colRight td .imageText{ 
+	font-size: 10px;
+	font-style:italic;
+}
+/* CROSSLINKS */
+#colRight .cross{
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:top;
+	/*height: 120px;*/
+	width:163px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	border: 1px solid #A9A9A9;
+}
+#crossTxt{
+	margin: 70px 5px 10px 5px;
+}
+#colRight .cross #tl {
+	position:absolute;
+	top: -1px;
+	left: -1px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+#colRight .cross #tr {
+	position:absolute;
+	top: -1px;
+	right: -2px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+#colRight .cross #bl {
+	position:absolute;
+	bottom: -1px;
+	left: -1px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+#colRight .cross #br {
+	position:absolute;
+	bottom: -1px;
+	right: -2px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 100;
+}
+
+/* RIGHT BAR */
+.searchbox{
+	margin: 20px 0 0 10px;
+}
+.searchBoxTD{
+	padding: 5px 0 1px 0;
+}
+/*................................................................................*/
+/* HJRE KOLONNE */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* SPECIELLE ELEMENT STYLES */
+/*--------------------------------------------------------------------------------*/
+.inspresult {
+	background-color:#F1D187;
+	border:1px solid #000000;
+	width:350px;
+}
+.inspcomment {
+	background-color:#F5E0AF;
+	border-bottom:1px solid #000000;
+	width:320px;
+}
+
+/*................................................................................*/
+/* SPECIELLE ELEMENT STYLES */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* SPECIELLE <DIV> */
+/*--------------------------------------------------------------------------------*/
+
+/*................................................................................*/
+/* SPECIELLE <DIV> */
+/*................................................................................*/
+
+/*--------------------------------------------------------------------------------*/
+/* ANDRE SPECIELLE STYLES */
+/*--------------------------------------------------------------------------------*/
+.Sitemapheader{
+	font-size:12px;
+	font-weight:bold;
+}
+/*................................................................................*/
+/* ANDRE SPECIELLE STYLES */
+/*................................................................................*/
